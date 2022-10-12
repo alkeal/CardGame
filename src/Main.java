@@ -56,8 +56,25 @@ public class Main {
         newCards.add(new Cards(8,"Clubs"));
         newCards.add(new Cards(9,"Clubs"));
         newCards.add(new Cards(10,"Clubs"));
+        newCards.add(new Cards(11,"Hearts/Knight"));
+        newCards.add(new Cards(12,"Hearts/Queen"));
+        newCards.add(new Cards(13,"Hearts/King"));
+        newCards.add(new Cards(1,"Hearts/Ace"));
+        newCards.add(new Cards(11,"Spades/Knight"));
+        newCards.add(new Cards(12,"Spades/Queen"));
+        newCards.add(new Cards(13,"Spades/King"));
+        newCards.add(new Cards(1,"Spades/Ace"));
+        newCards.add(new Cards(11,"Diamonds/Knight"));
+        newCards.add(new Cards(12,"Diamonds/Queen"));
+        newCards.add(new Cards(13,"Diamonds/King"));
+        newCards.add(new Cards(1,"Diamonds/Ace"));
+        newCards.add(new Cards(11,"Clubs/Knight"));
+        newCards.add(new Cards(12,"Clubs/Queen"));
+        newCards.add(new Cards(13,"Clubs/King"));
+        newCards.add(new Cards(1,"Clubs/Ace"));
 
-        System.out.println(newCards.contains(new Cards(4, "Hearts")));
+
+        System.out.println(newCards.contains(new Cards(2, "Clubs")));
         System.out.println(newCards.size());
 
 

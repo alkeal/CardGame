@@ -2,7 +2,7 @@ import java.util.Objects;
 
 public class Cards {
 
-    private int number;
+    private int  number;
 
     private String suits;
 
